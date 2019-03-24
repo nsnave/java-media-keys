@@ -1,9 +1,3 @@
-/*
- * Author: Aidan Evans
- * Date: 3/24/2019
- */
-
-
 
 #include <jni.h>
 #include <stdio.h>
