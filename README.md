@@ -5,3 +5,4 @@ MediaKeys.java must be in a package named "commands" to work.
 
 MediaKeys.dll must be in the same path as the "src" folder or in the same path as the .class or .jar file when compiled.
 
+MediaKeys.c and MediaKeys.h are the the source code files for the dll.
