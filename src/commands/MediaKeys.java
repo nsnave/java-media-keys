@@ -18,18 +18,18 @@ public class MediaKeys {
 	
 	
 	
-	private static native void volumeMute();
+	public static native void volumeMute();
 	
-	private static native void volumeDown();
+	public static native void volumeDown();
 	
-	private static native void volumeUp();
+	public static native void volumeUp();
 	
 	
-	private static native void songPrevious();
+	public static native void songPrevious();
 	
-	private static native void songNext();
+	public static native void songNext();
 	
-	private static native void songPlayPause();
+	public static native void songPlayPause();
 	
 	
 	
