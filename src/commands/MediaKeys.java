@@ -32,7 +32,7 @@ public class MediaKeys {
 	public static native void songPlayPause();
 
 
-	//public static native void mediaStop();
+	public static native void mediaStop();
 	
 	
 	public static void main(String[] args) {
@@ -49,6 +49,31 @@ public class MediaKeys {
 		//songNext();
 		
 		//songPlayPause();
+
+		int temp = Integer.parseInt(args[0]);
+		switch (temp) {
+			case 0:
+				volumeMute();
+				break;
+			case 1:
+				volumeDown();
+				break;
+			case 2:
+				volumeUp();
+				break;
+			case 3:
+				songPrevious();
+				break;
+			case 4:
+				songNext();
+				break;
+			case 5:
+				songPlayPause();
+				break;
+			case 6:
+				mediaStop();
+				break;
+		}
 		
 	}
 

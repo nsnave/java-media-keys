@@ -154,7 +154,7 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_songPlayPause (JNIEnv *env, jobje
 }
 
 
-/*
+
 //hits the media stop key
 JNIEXPORT void JNICALL Java_commands_MediaKeys_mediaStop (JNIEnv *env, jobject thisObj) {
 
@@ -178,7 +178,7 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_mediaStop (JNIEnv *env, jobject t
     return;
 
 }
-*/
+
 
 
 
