@@ -7,7 +7,6 @@
 #include <windows.h>
 
 
-
 //hits the volume mute/unmute key
 JNIEXPORT void JNICALL Java_commands_MediaKeys_volumeMute (JNIEnv *env, jobject thisObj) {
 
@@ -27,11 +26,9 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_volumeMute (JNIEnv *env, jobject 
 
     SendInput(1, &input, sizeof(INPUT));
 
-
     return;
 
 }
-
 
 
 //hits the volume down key
@@ -53,11 +50,9 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_volumeDown (JNIEnv *env, jobject 
 
     SendInput(1, &input, sizeof(INPUT));
 
-
     return;
 
 }
-
 
 
 //hits the volume up key
@@ -79,11 +74,9 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_volumeUp (JNIEnv *env, jobject th
 
     SendInput(1, &input, sizeof(INPUT));
 
-
     return;
 
 }
-
 
 
 
@@ -106,11 +99,9 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_songPrevious (JNIEnv *env, jobjec
 
     SendInput(1, &input, sizeof(INPUT));
 
-
     return;
 
 }
-
 
 
 //hits the next track key
@@ -131,7 +122,6 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_songNext (JNIEnv *env, jobject th
     input.ki   = kbi;
 
     SendInput(1, &input, sizeof(INPUT));
-
 
     return;
 
@@ -162,6 +152,33 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_songPlayPause (JNIEnv *env, jobje
     return;
 
 }
+
+
+/*
+//hits the media stop key
+JNIEXPORT void JNICALL Java_commands_MediaKeys_mediaStop (JNIEnv *env, jobject thisObj) {
+
+    KEYBDINPUT kbi;
+
+    //specific keycode
+    kbi.wVk = VK_MEDIA_STOP;
+
+    kbi.wScan = 0;
+    kbi.dwFlags = 0;
+    kbi.time = 0;
+    kbi.dwExtraInfo = (ULONG_PTR) GetMessageExtraInfo();
+
+    INPUT input;
+    input.type = INPUT_KEYBOARD;
+    input.ki   = kbi;
+
+    SendInput(1, &input, sizeof(INPUT));
+
+
+    return;
+
+}
+*/
 
 
 

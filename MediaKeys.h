@@ -55,6 +55,16 @@ JNIEXPORT void JNICALL Java_commands_MediaKeys_songNext
 JNIEXPORT void JNICALL Java_commands_MediaKeys_songPlayPause
   (JNIEnv *, jclass);
 
+/*
+ * Class:     MediaKeys
+ * Method:    mediaStop
+ * Signature: ()V
+ */
+ /*
+JNIEXPORT void JNICALL Java_commands_MediaKeys_mediaStop
+  (JNIEnv *, jclass);
+*/
+
 #ifdef __cplusplus
 }
 #endif
