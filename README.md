@@ -8,7 +8,7 @@ MediaKeys.dll must be in the same path as the "src" folder or in the same path a
 MediaKeys.c and MediaKeys.h are the the source code files for the dll.
 
 
-October-2020 Update:
+#### October-2020 Update:
  - Added the "Media Stop" command (VK_MEDIA_STOP)
  - updated MediaKeys.dll to reflect change
  - prior version without "Media Stop" put in the folder "backup"
