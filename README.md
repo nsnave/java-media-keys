@@ -7,6 +7,10 @@ MediaKeys.dll must be in the same path as the "src" folder or in the same path a
 
 MediaKeys.c and MediaKeys.h are the the source code files for the dll.
 
+#### Helpful Links:
+ - my [StackOverflow post](https://stackoverflow.com/a/55321025/11039508) giving an overview of how to set this up
+ - helpful [link](https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html) for setting up the JNI and creating the .dll file
+ - [StackOverflow post](https://stackoverflow.com/a/2969148/11039508) on pressing virtual keys on windows
 
 #### October-2020 Update:
  - Added the "Media Stop" command (VK_MEDIA_STOP)
